@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@android:drawable/ic_dialog_alert"
+            android:title="Instruction" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/images"
+            android:title="Register Myselfy" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/_3663567_ic_ne_de_document_premium_ou_logo_en_ligne_signe_et_symbole_de_haute_qualit__sur_fond_blanc_pictogra"
+            android:title="Register My contact" />
+        <item
+            android:id="@+id/nav_Display"
+            android:icon="@drawable/images"
+            android:title="Display my Contact" />
+<!--        <item-->
+<!--            android:id="@+id/nav_Place"-->
+<!--            android:icon="@drawable/_3663567_ic_ne_de_document_premium_ou_logo_en_ligne_signe_et_symbole_de_haute_qualit__sur_fond_blanc_pictogra"-->
+<!--            android:title="Near by Place" />-->
+<!--        <item-->
+<!--            android:id="@+id/nav_Tips"-->
+<!--            android:icon="@drawable/_3663567_ic_ne_de_document_premium_ou_logo_en_ligne_signe_et_symbole_de_haute_qualit__sur_fond_blanc_pictogra"-->
+<!--            android:title="Safet tips" />-->
+
+    </group>
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_Rate"
+                android:icon="@android:drawable/btn_star"
+                android:title="Rate This App"/>
+         </menu>
+    </item>
+
+</menu>
